@@ -1,0 +1,29 @@
+.faq-question {
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: left;
+}
+
+.faq-question:hover {
+  background-color: #f1f3f5;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+  padding: 0 1rem;
+}
+
+.faq-answer.show {
+  max-height: 200px; /* adjust if you expect longer answers */
+  padding: 0.5rem 1rem;
+}
+
+.chevron {
+  transition: transform 0.3s;
+}
+
+.chevron.rotate {
+  transform: rotate(180deg);
+}

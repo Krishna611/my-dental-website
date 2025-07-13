@@ -1,0 +1,156 @@
+/* General body styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #fdfdfd;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #007BFF;
+  color: white;
+  padding: 0.8rem 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+header h1 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #ccc;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Main headings */
+h2, h3 {
+  color: #007BFF;
+  margin-top: 1.2rem;
+}
+
+/* Buttons */
+.btn-custom {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.btn-custom:hover {
+  background-color: #0056b3;
+}
+
+/* FAQ accordion tweaks */
+.accordion-button {
+  font-weight: 500;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #007BFF;
+  color: white;
+}
+
+/* Sections */
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Hero/banner */
+.hero {
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Contact form spacing */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Responsive nav */
+@media (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+  }
+
+  header ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+/* Custom card styling */
+.service-card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 123, 255, 0.2);
+}
+
+/* Icon background circle */
+.icon-wrapper {
+  background-color: #007BFF;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
