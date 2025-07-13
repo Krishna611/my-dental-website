@@ -1,5 +1,7 @@
 # 🦷 Dental Clinic Website
 
+[🌐 View Live Website](https://krishna611.github.io/my-dental-website/)
+
 A modern, responsive dental clinic website built with **React**, featuring:
 - Hero section and introduction
 - Services list with icons and animation
